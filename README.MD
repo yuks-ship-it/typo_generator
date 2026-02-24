@@ -68,6 +68,7 @@ Swap – two adjacent characters are transposed.
 The script ensures that the generated typo is different from the original word (up to three attempts). A fixed random seed (42) is used for reproducibility; you can change or remove it in the __main__ block to get different typos each run.
 
 **Output Format**
+
 Each line is a comma‑separated pair:
 
 text
@@ -85,6 +86,7 @@ text
 
 
 **Data Source**
+
 The word lists were extracted from an Excel file containing vocabulary sheets for each language. The original words cover a wide range of categories: nature, objects, abstracts, and common day‑to‑day terms.
 
 **Customization / Adding New Languages**
